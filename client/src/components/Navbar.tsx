@@ -17,15 +17,17 @@ export const Navbar: React.FC = () => {
         elevation={0}
       >
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            TXJ
-          </IconButton>
+          <Link href="/">
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              sx={{ mr: 2 }}
+            >
+              TXJ
+            </IconButton>
+          </Link>
             <Link href="/publications">
                 <Button disableRipple>Publications</Button>
             </Link>
